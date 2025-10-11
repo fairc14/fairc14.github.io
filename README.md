@@ -1,5 +1,3 @@
-# fairc14.github.io
-
 <html>
 	<head>
 		
