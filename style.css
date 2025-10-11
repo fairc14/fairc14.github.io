@@ -1,12 +1,84 @@
 #button1{
-    border: 1px solid;
-    height: 100px;
-    width: 100px;
-    background-color: skyblue;
+/* top left button */
+   	border: 1px solid;
+	border-color: black;
+    	height: 100px;
+    	width: 100px;
+    	background-color: skyblue;
+	color: skyblue;
+	border-radius: 50px;
+
+	position:fixed;
+	top:263px;
+	left:8px;
 }
 #button2{
-    border: 1px solid;
-    height: 100px;
-    width: 100px;
-    background-color: skyblue;
+/* bottom right button */
+	border: 1px solid;
+	border-color: black;
+	height: 100px;
+	width: 100px;
+	background-color: skyblue;
+	color: skyblue;
+	border-radius: 50px;
+	
+	position:fixed;
+	top:463px;
+	left:108px;
+}
+#button3{
+/* top right button */
+	border: 1px solid;
+	border-color: black;
+	height: 100px;
+	width: 100px;
+	background-color: skyblue;
+	color: skyblue;
+	border-radius: 50px;
+	
+	position:fixed;
+	top:263px;
+	left:108px;
+}
+#button4{
+/* middle right button */
+	border: 1px solid;
+	border-color: black;
+	height: 100px;
+	width: 100px;
+	background-color: skyblue;
+	color: skyblue;
+	border-radius: 50px;
+	
+	position:fixed;
+	top:363px;
+	left:108px;
+}
+#button5{
+/* middle left button */
+	border: 1px solid;
+	border-color: black;
+	height: 100px;
+	width: 100px;
+	background-color: skyblue;
+	color: skyblue;
+	border-radius: 50px;
+	
+	position:fixed;
+	top:363px;
+	left:8px;
+}
+#button6{
+/* bottom left button */
+	border: 1px solid;
+	border-color: black;
+	height: 100px;
+	width: 100px;
+	background-color: skyblue;
+	color: skyblue;
+	border-radius: 50px;
+	
+	position:fixed;
+	top:463px;
+	left:8px;
 }
