@@ -4,39 +4,41 @@
 	<head>
 		<title>Mr. Fair's Soundboard</title>
 		<link rel="stylesheet" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-		<img src="Mr T.jpg" width="200px" height="255px">
-		<div>
-			<audio id="audio" src="pity.mp3" autostart="false"></audio>
-			<button id="button1" onclick="clickpity();">pity</button>
-			<!-- top left button -->
-		</div>
-		<div>
-			<audio id="audio2" src="shut.mp3" autostart="false"></audio>
-			<button id="button2" onclick="clickshut();">shut up</button>
-			<!-- bottom right button -->
-		</div>
-		<div>
-			<audio id="audio3" src="talk.mp3" autostart="false"></audio>
-			<button id="button3" onclick="clicktalk();">no backtalk</button>
-			<!-- top right button -->
-		</div>
-		<div>
-			<audio id="audio4" src="mad.mp3" autostart="false"></audio>
-			<button id="button4" onclick="clickmad();">don't make me mad</button>
-			<!-- middle right button -->
-		</div>
-		<div>
-			<audio id="audio5" src="jibber.mp3" autostart="false"></audio>
-			<button id="button5" onclick="clickjibber();">quit yo jibber jabber</button>
-			<!-- middle left button -->
-		</div>
-		<div>
-			<audio id="audio6" src="name.mp3" autostart="false"></audio>
-			<button id="button6" onclick="clickname();">first name</button>
-			<!-- bottom left button -->
-		</div>
+		<img src="Mr T.jpg" class="center">
+			<div>
+				
+				<audio id="audio" src="pity.mp3" autostart="false"></audio>
+				<button id="button1" class="b" onclick="clickpity();">Pity</button>
+				<!-- top left button -->
+			</div>
+			<div>
+				<audio id="audio2" src="shut.mp3" autostart="false"></audio>
+				<button id="button2" onclick="clickshut();">Shut Up</button>
+				<!-- bottom right button -->
+			</div>
+			<div>
+				<audio id="audio3" src="talk.mp3" autostart="false"></audio>
+				<button id="button3" onclick="clicktalk();">Backtalk</button>
+				<!-- top right button -->
+			</div>
+			<div>
+				<audio id="audio4" src="mad.mp3" autostart="false"></audio>
+				<button id="button4" onclick="clickmad();">Mad</button>
+				<!-- middle right button -->
+			</div>
+			<div>
+				<audio id="audio5" src="jibber.mp3" autostart="false"></audio>
+				<button id="button5" onclick="clickjibber();">Jibber Jabber</button>
+				<!-- middle left button -->
+			</div>
+			<div>
+				<audio id="audio6" src="name.mp3" autostart="false"></audio>
+				<button id="button6" onclick="clickname();">First Name</button>
+				<!-- bottom left button -->
+			</div>
 	<script>
 		function clickpity(){
 			var sound = document.getElementById('audio');
