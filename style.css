@@ -1,84 +1,105 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: auto;
+}
+
 #button1{
 /* top left button */
    	border: 1px solid;
 	border-color: black;
-    	height: 100px;
-    	width: 100px;
+    	height: 150px;
+    	width: 150px;
     	background-color: skyblue;
-	color: skyblue;
-	border-radius: 50px;
+	color: black;
+	border-radius: 75px;
+	font-size: 25px;
 
 	position:fixed;
-	top:263px;
-	left:8px;
+	top:370px;
+	left:45px;
+	 
 }
 #button2{
 /* bottom right button */
 	border: 1px solid;
 	border-color: black;
-	height: 100px;
-	width: 100px;
+	height: 150px;
+	width: 150px;
 	background-color: skyblue;
-	color: skyblue;
-	border-radius: 50px;
+	color: black;
+	border-radius: 75px;
+	font-size: 25px;
 	
 	position:fixed;
-	top:463px;
-	left:108px;
+	top:670px;
+	left:195px;
 }
 #button3{
 /* top right button */
 	border: 1px solid;
 	border-color: black;
-	height: 100px;
-	width: 100px;
+	height: 150px;
+	width: 150px;
 	background-color: skyblue;
-	color: skyblue;
-	border-radius: 50px;
+	color: black;
+	border-radius: 75px;
+	font-size: 25px;
 	
 	position:fixed;
-	top:263px;
-	left:108px;
+	top:370px;
+	left:195px;
 }
 #button4{
 /* middle right button */
 	border: 1px solid;
 	border-color: black;
-	height: 100px;
-	width: 100px;
+	height: 150px;
+	width: 150px;
 	background-color: skyblue;
-	color: skyblue;
-	border-radius: 50px;
+	color: black;
+	border-radius: 75px;
+	font-size: 25px;
 	
 	position:fixed;
-	top:363px;
-	left:108px;
+	top:520px;
+	left:195px;
 }
 #button5{
 /* middle left button */
 	border: 1px solid;
 	border-color: black;
-	height: 100px;
-	width: 100px;
+	height: 150px;
+	width: 150px;
 	background-color: skyblue;
-	color: skyblue;
-	border-radius: 50px;
+	color: black;
+	border-radius: 75px;
+	font-size: 25px;
 	
 	position:fixed;
-	top:363px;
-	left:8px;
+	top:520px;
+	left:45px;
 }
 #button6{
 /* bottom left button */
 	border: 1px solid;
 	border-color: black;
-	height: 100px;
-	width: 100px;
+	height: 150px;
+	width: 150px;
 	background-color: skyblue;
-	color: skyblue;
-	border-radius: 50px;
+	color: black;
+	border-radius: 75px;
+	font-size: 25px;
 	
 	position:fixed;
-	top:463px;
-	left:8px;
+	top:670px;
+	left:45px;
+}
+
+@media (min-width: 600px) {
+	.center{
+	width:350px;
+}
 }
