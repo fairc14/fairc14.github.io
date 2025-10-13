@@ -10,92 +10,92 @@
 /* top left button */
    	border: 1px solid;
 	border-color: black;
-    	height: 150px;
-    	width: 150px;
+    	height: 100px;
+    	width: 100px;
     	background-color: skyblue;
 	color: black;
-	border-radius: 75px;
-	font-size: 25px;
+	border-radius: 50px;
+	font-size: 20px;
 
 	position:fixed;
-	top:370px;
-	left:45px;
+	bottom:210px;
+	left:75px;
 	 
 }
 #button2{
 /* bottom right button */
 	border: 1px solid;
 	border-color: black;
-	height: 150px;
-	width: 150px;
+	height: 100px;
+	width: 100px;
 	background-color: skyblue;
 	color: black;
-	border-radius: 75px;
-	font-size: 25px;
+	border-radius: 50px;
+	font-size: 20px;
 	
 	position:fixed;
-	top:670px;
+	bottom:10px;
 	left:195px;
 }
 #button3{
 /* top right button */
 	border: 1px solid;
 	border-color: black;
-	height: 150px;
-	width: 150px;
+	height: 100px;
+	width: 100px;
 	background-color: skyblue;
 	color: black;
-	border-radius: 75px;
-	font-size: 25px;
+	border-radius: 50px;
+	font-size: 20px;
 	
 	position:fixed;
-	top:370px;
+	bottom:210px;
 	left:195px;
 }
 #button4{
 /* middle right button */
 	border: 1px solid;
 	border-color: black;
-	height: 150px;
-	width: 150px;
+	height: 100px;
+	width: 100px;
 	background-color: skyblue;
 	color: black;
-	border-radius: 75px;
-	font-size: 25px;
+	border-radius: 50px;
+	font-size: 20px;
 	
 	position:fixed;
-	top:520px;
+	bottom:110px;
 	left:195px;
 }
 #button5{
 /* middle left button */
 	border: 1px solid;
 	border-color: black;
-	height: 150px;
-	width: 150px;
+	height: 100px;
+	width: 100px;
 	background-color: skyblue;
 	color: black;
-	border-radius: 75px;
-	font-size: 25px;
+	border-radius: 50px;
+	font-size: 20px;
 	
 	position:fixed;
-	top:520px;
-	left:45px;
+	bottom:110px;
+	left:75px;
 }
 #button6{
 /* bottom left button */
 	border: 1px solid;
 	border-color: black;
-	height: 150px;
-	width: 150px;
+	height: 100px;
+	width: 100px;
 	background-color: skyblue;
 	color: black;
-	border-radius: 75px;
-	font-size: 25px;
+	border-radius: 50px;
+	font-size: 20px;
 	
 	position:fixed;
-	top:670px;
-	left:45px;
+	bottom:10px;
+	left:75px;
 }
 
 @media (min-width: 600px) {
