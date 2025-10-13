@@ -2,104 +2,65 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
-  height: auto;
+  height: 47vh;
+  width: auto;
 }
+
+.button {
+   	border: 1px solid;
+	border-color: black;
+    	height: 15vh;
+    	width: 15vh;
+    	background-color: skyblue;
+	color: black;
+	border-radius: 7.5vh;
+	font-size: 2.5vh;
+}
+
 
 #button1{
 /* top left button */
-   	border: 1px solid;
-	border-color: black;
-    	height: 100px;
-    	width: 100px;
-    	background-color: skyblue;
-	color: black;
-	border-radius: 50px;
-	font-size: 20px;
-
-	position:fixed;
-	bottom:200px;
-	left:75px;
 	 
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-100%, 0%);
 }
 #button2{
 /* bottom right button */
-	border: 1px solid;
-	border-color: black;
-	height: 100px;
-	width: 100px;
-	background-color: skyblue;
-	color: black;
-	border-radius: 50px;
-	font-size: 20px;
 	
-	position:fixed;
-	bottom:0px;
-	left:195px;
+	position:absolute;
+	top:80%;
+	left:50%;
 }
 #button3{
 /* top right button */
-	border: 1px solid;
-	border-color: black;
-	height: 100px;
-	width: 100px;
-	background-color: skyblue;
-	color: black;
-	border-radius: 50px;
-	font-size: 20px;
-	
-	position:fixed;
-	bottom:200px;
-	left:195px;
+
+	position:absolute;
+	top:50%;
+	left:50%;
 }
 #button4{
 /* middle right button */
-	border: 1px solid;
-	border-color: black;
-	height: 100px;
-	width: 100px;
-	background-color: skyblue;
-	color: black;
-	border-radius: 50px;
-	font-size: 20px;
 	
-	position:fixed;
-	bottom:100px;
-	left:195px;
+	position:absolute;
+	top:65%;
+	left:50%;
+
 }
 #button5{
 /* middle left button */
-	border: 1px solid;
-	border-color: black;
-	height: 100px;
-	width: 100px;
-	background-color: skyblue;
-	color: black;
-	border-radius: 50px;
-	font-size: 20px;
 	
-	position:fixed;
-	bottom:100px;
-	left:75px;
+	position:absolute;
+	top:65%;
+	left:50%;
+	transform: translate(-100%, 0%);
 }
 #button6{
 /* bottom left button */
-	border: 1px solid;
-	border-color: black;
-	height: 100px;
-	width: 100px;
-	background-color: skyblue;
-	color: black;
-	border-radius: 50px;
-	font-size: 20px;
 	
-	position:fixed;
-	bottom:0px;
-	left:75px;
-}
-
-@media (min-width: 600px) {
-	.center{
-	width:350px;
-}
+	position:absolute;
+	top:80%;
+	left:50%;
+	transform: translate(-100%, 0%);
 }
