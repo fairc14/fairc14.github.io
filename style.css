@@ -18,7 +18,7 @@
 	font-size: 20px;
 
 	position:fixed;
-	bottom:210px;
+	bottom:200px;
 	left:75px;
 	 
 }
@@ -34,7 +34,7 @@
 	font-size: 20px;
 	
 	position:fixed;
-	bottom:10px;
+	bottom:0px;
 	left:195px;
 }
 #button3{
@@ -49,7 +49,7 @@
 	font-size: 20px;
 	
 	position:fixed;
-	bottom:210px;
+	bottom:200px;
 	left:195px;
 }
 #button4{
@@ -64,7 +64,7 @@
 	font-size: 20px;
 	
 	position:fixed;
-	bottom:110px;
+	bottom:100px;
 	left:195px;
 }
 #button5{
@@ -79,7 +79,7 @@
 	font-size: 20px;
 	
 	position:fixed;
-	bottom:110px;
+	bottom:100px;
 	left:75px;
 }
 #button6{
@@ -94,7 +94,7 @@
 	font-size: 20px;
 	
 	position:fixed;
-	bottom:10px;
+	bottom:0px;
 	left:75px;
 }
 
