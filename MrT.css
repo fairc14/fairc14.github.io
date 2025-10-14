@@ -2,7 +2,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 47vh;
+  height: 45%;
   width: auto;
 }
 
@@ -64,3 +64,4 @@
 	left:50%;
 	transform: translate(-100%, 0%);
 }
+
