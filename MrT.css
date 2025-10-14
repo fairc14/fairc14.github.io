@@ -37,7 +37,7 @@
 /* top right button */
 
 	position:absolute;
-	top:45vh;
+	top:40vh;
 	left:50vw;
 }
 #button4{
@@ -63,6 +63,7 @@
 	top:70vh;
 	left:50vw;
 	transform: translate(-100%, 0%);
+
 
 
 
