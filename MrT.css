@@ -11,7 +11,7 @@
 	border-color: black;
     	height: 15vh;
     	width: 15vh;
-    	background-color: skyblue;
+    	background-color: blue;
 	color: black;
 	border-radius: 7.5vh;
 	font-size: 2.5vh;
@@ -22,48 +22,48 @@
 /* top left button */
 	 
 	position:absolute;
-	top:50%;
-	left:50%;
+	top:50vh;
+	left:50vw;
 	transform: translate(-100%, 0%);
 }
 #button2{
 /* bottom right button */
 	
 	position:absolute;
-	top:80%;
-	left:50%;
+	top:80vh;
+	left:50vw;
 }
 #button3{
 /* top right button */
 
 	position:absolute;
-	top:50%;
-	left:50%;
+	top:50vh;
+	left:50vw;
 }
 #button4{
 /* middle right button */
 	
 	position:absolute;
-	top:65%;
-	left:50%;
+	top:65vh;
+	left:50vw;
 
 }
 #button5{
 /* middle left button */
 	
 	position:absolute;
-	top:65%;
-	left:50%;
+	top:65vh;
+	left:50vw;
 	transform: translate(-100%, 0%);
 }
 #button6{
 /* bottom left button */
 	
 	position:absolute;
-	top:80%;
-	left:50%;
+	top:80vh;
+	left:50vw;
 	transform: translate(-100%, 0%);
-}
+
 
 
 
