@@ -3,40 +3,40 @@
 <html>
 	<head>
 		<title>Mr. Fair's Soundboard</title>
-		<link rel="stylesheet" href="MrT.css">
+		<link rel="stylesheet" href="mrt/MrT.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
 		
-		<img src="Mr T.jpg" class="center">	
+		<img src="mrt/Mr T.jpg" class="center">	
 				
 			<div>
-				<audio id="audio" src="pity.mp3" autostart="false"></audio>
+				<audio id="audio" src="mrt/pity.mp3" autostart="false"></audio>
 				<button id="button1" class="button" onclick="clickpity();">Pity</button>
 				<!-- top left button -->
 			</div>
 			<div>
-				<audio id="audio2" src="shut.mp3" autostart="false"></audio>
+				<audio id="audio2" src="mrt/shut.mp3" autostart="false"></audio>
 				<button id="button2" class="button" onclick="clickshut();">Shut Up</button>
 				<!-- bottom right button -->
 			</div>
 			<div>
-				<audio id="audio3" src="talk.mp3" autostart="false"></audio>
+				<audio id="audio3" src="mrt/talk.mp3" autostart="false"></audio>
 				<button id="button3" class="button" onclick="clicktalk();">Backtalk</button>
 				<!-- top right button -->
 			</div>
 			<div>
-				<audio id="audio4" src="mad.mp3" autostart="false"></audio>
+				<audio id="audio4" src="mrt/mad.mp3" autostart="false"></audio>
 				<button id="button4" class="button" onclick="clickmad();">Mad</button>
 				<!-- middle right button -->
 			</div>
 			<div>
-				<audio id="audio5" src="jibber.mp3" autostart="false"></audio>
+				<audio id="audio5" src="mrt/jibber.mp3" autostart="false"></audio>
 				<button id="button5" class="button" onclick="clickjibber();">Jibber Jabber</button>
 				<!-- middle left button -->
 			</div>
 			<div>
-				<audio id="audio6" src="name.mp3" autostart="false"></audio>
+				<audio id="audio6" src="mrt/name.mp3" autostart="false"></audio>
 				<button id="button6" class="button" onclick="clickname();">First Name</button>
 				<!-- bottom left button -->
 			</div>
@@ -66,12 +66,29 @@
 			sound.play()
 		}
 	</script>
+		<div class="off-screen-menu">
+     		 	<ul>
+        			<li><a href="index.html">Mr. T</a></li>
+       				<li><a href="TT.html">Terry Tate</a></li>
+        		<!--	<li><a href="#">Napoleon Dynamite</a></li>
+				<li><a href="#">Xmas Story</a></li>  -->
+      			</ul>
+   		 </div>
+
+   		<nav>
+      		<div class="ham-menu">
+       		 	<span></span>
+        		<span></span>
+        		<span></span>
+      		</div>
+    		</nav>
+		<script src="./app.js"></script>
+	
+		
 	</body>
 
 
 </html>
-
-
 
 
 
