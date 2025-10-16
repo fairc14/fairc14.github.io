@@ -23,12 +23,12 @@ a:hover {
 .button {
    	border: 1px solid;
 	border-color: black;
-    	height: 13vh;
-    	width: 13vh;
+    	height: 10vh;
+    	width: 10vh;
     	background-color: red;
 	color: black;
-	border-radius: 6.5vh;
-	font-size: 2.5vh;
+	border-radius: 5vh;
+	font-size: 2vh;
 }
 
 
@@ -50,7 +50,7 @@ a:hover {
 #button3{
 	
 	position:absolute;
-	top:58vh;
+	top:55vh;
 	left:50vw;
 	transform: translate(-100%, 0%);
 }
@@ -58,7 +58,7 @@ a:hover {
 #button4{
 	
 	position:absolute;
-	top:58vh;
+	top:55vh;
 	left:50vw;
 
 }
@@ -66,7 +66,7 @@ a:hover {
 #button5{
 	
 	position:absolute;
-	top:71vh;
+	top:65vh;
 	left:50vw;
 	transform: translate(-100%, 0%);
 }
@@ -74,9 +74,52 @@ a:hover {
 #button6{
 	
 	position:absolute;
-	top:71vh;
+	top:65vh;
 	left:50vw;
 }
+
+#button7{
+	position:absolute;
+	top:45vh;
+	left:50vw;
+	transform: translate(100%, 0%)
+}
+
+#button8{
+	position:absolute;
+	top:45vh;
+	left:50vw;
+	transform: translate(-200%, 0%)
+}
+
+#button9{
+	position:absolute;
+	top:55vh;
+	left:50vw;
+	transform: translate(100%, 0%)
+}
+
+#button10{
+	position:absolute;
+	top:55vh;
+	left:50vw;
+	transform: translate(-200%, 0%)
+}
+
+#button11{
+	position:absolute;
+	top:65vh;
+	left:50vw;
+	transform: translate(100%, 0%)
+}
+
+#button12{
+	position:absolute;
+	top:65vh;
+	left:50vw;
+	transform: translate(-200%, 0%)
+}
+
 
 /* off-screen-menu */
 .off-screen-menu {
@@ -151,4 +194,3 @@ nav {
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
 }
-
