@@ -35,7 +35,7 @@ a:hover {
 #button1{
 	 
 	position:absolute;
-	top:50vh;
+	top:45vh;
 	left:50vw;
 	transform: translate(-100%, 0%);
 }
@@ -43,14 +43,14 @@ a:hover {
 #button2{
 
 	position:absolute;
-	top:50vh;
+	top:45vh;
 	left:50vw;
 }
 
 #button3{
 	
 	position:absolute;
-	top:63vh;
+	top:58vh;
 	left:50vw;
 	transform: translate(-100%, 0%);
 }
@@ -58,7 +58,7 @@ a:hover {
 #button4{
 	
 	position:absolute;
-	top:63vh;
+	top:58vh;
 	left:50vw;
 
 }
@@ -66,7 +66,7 @@ a:hover {
 #button5{
 	
 	position:absolute;
-	top:76vh;
+	top:71vh;
 	left:50vw;
 	transform: translate(-100%, 0%);
 }
@@ -74,7 +74,7 @@ a:hover {
 #button6{
 	
 	position:absolute;
-	top:76vh;
+	top:71vh;
 	left:50vw;
 }
 
@@ -151,3 +151,4 @@ nav {
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
 }
+
