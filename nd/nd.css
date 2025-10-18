@@ -16,75 +16,143 @@ a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 38vh;
+  height: 40vh;
   width: auto;
 }
 
 .button {
    	border: 1px solid;
 	border-color: black;
-    	height: 15vh;
-    	width: 15vh;
+    	height: 10vh;
+    	width: 10vh;
     	background-color: orange;
 	color: black;
-	border-radius: 7.5vh;
-	font-size: 2.5vh;
+	border-radius: 5vh;
+	font-size: 2vh;
 }
 
 
 #button1{
-/* top left button */
 	 
 	position:absolute;
-	top:40vh;
+	top:45vh;
 	left:50vw;
 	transform: translate(-100%, 0%);
 }
+
 #button2{
-/* bottom right button */
-	
+
 	position:absolute;
-	top:70vh;
+	top:45vh;
 	left:50vw;
 }
+
 #button3{
-/* top right button */
-
+	
 	position:absolute;
-	top:40vh;
+	top:55vh;
 	left:50vw;
+	transform: translate(-100%, 0%);
 }
+
 #button4{
-/* middle right button */
 	
 	position:absolute;
 	top:55vh;
 	left:50vw;
 
 }
+
 #button5{
-/* middle left button */
 	
 	position:absolute;
-	top:55vh;
-	left:50vw;
-	transform: translate(-100%, 0%);
-}
-#button6{
-/* bottom left button */
-	
-	position:absolute;
-	top:70vh;
+	top:65vh;
 	left:50vw;
 	transform: translate(-100%, 0%);
 }
 
+#button6{
+	
+	position:absolute;
+	top:65vh;
+	left:50vw;
+}
+
+#button7{
+	position:absolute;
+	top:45vh;
+	left:50vw;
+	transform: translate(100%, 0%)
+}
+
+#button8{
+	position:absolute;
+	top:45vh;
+	left:50vw;
+	transform: translate(-200%, 0%)
+}
+
+#button9{
+	position:absolute;
+	top:55vh;
+	left:50vw;
+	transform: translate(100%, 0%)
+}
+
+#button10{
+	position:absolute;
+	top:55vh;
+	left:50vw;
+	transform: translate(-200%, 0%)
+}
+
+#button11{
+	position:absolute;
+	top:65vh;
+	left:50vw;
+	transform: translate(100%, 0%)
+}
+
+#button12{
+	position:absolute;
+	top:65vh;
+	left:50vw;
+	font-size: 1.5vh;
+	transform: translate(-200%, 0%)
+}
+
+#button13{
+	position:absolute;
+	top:75vh;
+	left:50vw;
+	font-size: 1.75vh;
+	transform: translate(0%, 0%)
+}
+
+#button14{
+	position:absolute;
+	top:75vh;
+	left:50vw;
+	transform: translate(100%, 0%)
+}
+#button15{
+	position:absolute;
+	top:75vh;
+	left:50vw;
+	transform: translate(-100%, 0%)
+}
+#button16{
+	position:absolute;
+	top:75vh;
+	left:50vw;
+	transform: translate(-200%, 0%)
+}
 
 /* off-screen-menu */
 .off-screen-menu {
     background-color:  rgb(34, 37, 49);
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     max-width: 450px;
     position: fixed;
     top: 0;
